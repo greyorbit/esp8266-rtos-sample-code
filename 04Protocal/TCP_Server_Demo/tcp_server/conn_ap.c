@@ -67,7 +67,7 @@ void wifi_handle_event_cb(System_Event_t *evt)
     }
 }
 
-void conn_AP_Init(void)
+void conn_ap_init(void)
 {
     wifi_set_opmode(STATIONAP_MODE);
     struct station_config config;
